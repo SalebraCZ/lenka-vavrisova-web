@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if title %}{{ title }} · {% endif %}{{ site.nazev }}</title>
+  {% if description %}<meta name="description" content="{{ description }}">{% endif %}
+  <link rel="preload" href="/assets/fonts/lora-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  {% set menu = [
+    ["/provazeni/", "Provázení"],
+    ["/workshop/", "Workshop"],
+    ["/koucink/", "Koučink"],
+    ["/profil/", "Profil"],
+    ["/akce/", "Kde se potkáme"],
+    ["/blog/", "Blog"],
+    ["#kontakt", "Kontakt"]
+  ] %}
+  <header class="nav">
+    <div class="wrap">
+      <a class="logo" href="/">{{ site.nazev }}</a>
+      <nav class="menu" aria-label="Hlavní navigace">
+        {% for item in menu %}<a href="{{ item[0] }}"{% if page.url == item[0] %} aria-current="page"{% endif %}>{{ item[1] }}</a>{% endfor %}
+      </nav>
+      <details class="menu-mobile">
+        <summary>Menu</summary>
+        <nav aria-label="Navigace na mobilu">
+          {% for item in menu %}<a href="{{ item[0] }}">{{ item[1] }}</a>{% endfor %}
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main>
+    {{ content | safe }}
+  </main>
+  {% include "kontakt.njk" %}
+  <footer>
+    <div class="wrap">
+      <span>© {{ site.nazev }}</span>
+      <span>{{ site.podtitul }}</span>
+    </div>
+  </footer>
+</body>
+</html>
