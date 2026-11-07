@@ -1,0 +1,23 @@
+---
+layout: base.njk
+title: Blog
+permalink: /blog/
+---
+<section class="pv-hero">
+  <div class="wrap">
+    <div class="eyebrow">Blog</div>
+    <h1>{{ site.podtitul }}</h1>
+    <div>
+      {% for c in collections.clanky %}
+      <a class="bl" href="{{ c.url }}" style="text-decoration:none">
+        <div class="img {% if loop.index is odd %}g1{% else %}g2{% endif %}"></div>
+        <div>
+          <span class="meta">{{ c.data.datum | datumCs }}</span>
+          <h3>{{ c.data.nazev }}</h3>
+          <p>{{ c.data.perex }}</p>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
