@@ -6,7 +6,7 @@ layout: base.njk
     <a class="eyebrow" href="/blog/" style="text-decoration:none">← Blog</a>
     <h1>{{ nazev }}</h1>
     <p class="meta">{{ datum | datumCs }}</p>
-    {% if obrazek %}<img src="{{ obrazek }}" alt="{{ obrazek_popis or '' }}" style="border-radius:16px;margin-top:28px">{% endif %}
+    {% if obrazek %}<img src="{{ obrazek | obrazekUrl }}" alt="{{ obrazek_popis or '' }}" style="border-radius:16px;margin-top:28px">{% endif %}
     <div class="prose">
       {{ content | safe }}
     </div>

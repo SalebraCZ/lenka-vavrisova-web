@@ -1,7 +1,7 @@
 ---
 nazev: Když AI přestane zrychlovat práci a začne zrychlovat vás
 datum: 2026-11-07
-perex: Před pár měsíci jsem dva dny spala hodinu za noc. Přepálila jsem si nervový systém. A o tom, proč za to nemohla AI.
+perex: Příběh o tom, jak jsem se dostala od AI, která zrychlovala moji práci, k AI, která zrychlila mě. A proč za to nemohla AI.
 ---
 
 *Před pár měsíci jsem dva dny spala hodinu za noc. Přepálila jsem si nervový systém. Tohle je příběh o tom, jak jsem se dostala od AI, která zrychlovala moji práci, k AI, která zrychlila mě. A o tom, proč za to nemohla AI.*

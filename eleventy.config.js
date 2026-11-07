@@ -1,6 +1,8 @@
 import { slugCs } from './lib/slug.js';
 import { validateArticle } from './lib/validate-article.js';
 import { splitEvents } from './lib/events.js';
+import { validateEvent } from './lib/validate-event.js';
+import { obrazekUrl } from './lib/obrazek.js';
 
 // Den sestavení; v testech pevně přes BUILD_DATE.
 const dnes = () => (process.env.BUILD_DATE ? new Date(`${process.env.BUILD_DATE}T12:00:00Z`) : new Date());
@@ -11,12 +13,19 @@ function datumCs(datum) {
   return `${d.getUTCDate()}. ${d.getUTCMonth() + 1}. ${d.getUTCFullYear()}`;
 }
 
+// Všechny akce, každá s ověřenou hlavičkou.
+const akce = api => api.getFilteredByGlob('akce/*.md').map(item => {
+  validateEvent(item.data, item.inputPath);
+  return item;
+});
+
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 'src/assets': 'assets', 'src/CNAME': 'CNAME' });
   eleventyConfig.addPassthroughCopy('blog/**/*.{jpg,jpeg,png,webp}');
   for (const ignore of ['test/**', 'README.md', '.superpowers/**', '.claude/**']) eleventyConfig.ignores.add(ignore);
 
   eleventyConfig.addFilter('slugCs', slugCs);
+  eleventyConfig.addFilter('obrazekUrl', obrazekUrl);
   eleventyConfig.addFilter('datumCs', datumCs);
   eleventyConfig.addFilter('denMesic', d => datumCs(d).split(' ').slice(0, 2).join(' '));
   eleventyConfig.addFilter('head', (pole, n) => pole.slice(0, n));
@@ -31,8 +40,8 @@ export default function (eleventyConfig) {
       .sort((a, b) => new Date(b.data.datum) - new Date(a.data.datum))
   );
 
-  eleventyConfig.addCollection('akcePripravovane', api => splitEvents(api.getFilteredByGlob('akce/*.md'), dnes()).upcoming);
-  eleventyConfig.addCollection('akceProbehle', api => splitEvents(api.getFilteredByGlob('akce/*.md'), dnes()).past);
+  eleventyConfig.addCollection('akcePripravovane', api => splitEvents(akce(api), dnes()).upcoming);
+  eleventyConfig.addCollection('akceProbehle', api => splitEvents(akce(api), dnes()).past);
 
   return {
     dir: { input: '.', includes: 'src/_includes', data: 'src/_data', output: '_site' },

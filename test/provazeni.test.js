@@ -15,3 +15,7 @@ test('provázení: vedení, 2 karty, text O mně v první osobě', () => {
   assert.ok(html.includes('Pracuju s majiteli a manažery menších firem.'));
   assert.equal((html.match(/class="card karta-duvera"/g) || []).length, 2);
 });
+
+test('text O mně je celý, včetně odstavce Mimo práci', () => {
+  assert.ok(h().includes('Mimo práci jsem autorkou knihy Sylvanor a světa Beastorie'));
+});
