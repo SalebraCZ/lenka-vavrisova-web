@@ -19,6 +19,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter('slugCs', slugCs);
   eleventyConfig.addFilter('datumCs', datumCs);
   eleventyConfig.addFilter('denMesic', d => datumCs(d).split(' ').slice(0, 2).join(' '));
+  eleventyConfig.addFilter('head', (pole, n) => pole.slice(0, n));
   eleventyConfig.addFilter('rok', d => new Date(d).getUTCFullYear());
 
   eleventyConfig.addCollection('clanky', api =>

@@ -7,6 +7,101 @@ permalink: /
     <div>
       <div class="eyebrow">{{ site.podtitul }}</div>
       <h1>AI transformace začíná u lidí. Dřív než u nástroje.</h1>
+      <p class="lead">Provázím majitele a vedení firem zaváděním AI tak, aby se tým stal spolutvůrcem změny, ne jejím pasivním příjemcem.</p>
+      <div class="actions">
+        <a class="btn" href="{{ site.mailto }}">{{ site.rezervace }}</a>
+        <a class="btn-ghost" href="/provazeni/">Jak provázím transformací</a>
+      </div>
     </div>
+    <div class="photo" role="img" aria-label="Místo pro fotografii"></div>
+  </div>
+</section>
+
+<section class="band" id="poznavate-se">
+  <div class="wrap split">
+    <div>
+      <div class="eyebrow">Poznáváte se?</div>
+      <h2>Otázky, které si klade každý, kdo vede AI transformaci</h2>
+    </div>
+    <div>
+      <ol class="qs">
+        <li>Co udělat s lidmi ještě předtím, než se nástroj nasadí?</li>
+        <li>Co se má dít během nasazení?</li>
+        <li>Co a jakým způsobem komunikovat?</li>
+        <li>Jak udržet v týmu jistotu v době plné nejistoty?</li>
+        <li>Jak zapojit všechny, aby nebyli jen pasivními příjemci informací?</li>
+        <li>Jak vytvořit prostředí, ve kterém lidé transformaci přijmou?</li>
+      </ol>
+      <p class="after-qs">Nástroje se dají naučit za pár dní. Jistota, že v té změně lidé obstojí, ale nevznikne sama.</p>
+    </div>
+  </div>
+</section>
+
+<section id="nabidky">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Jak můžeme spolupracovat</div>
+      <h2>Od přípravy po týdny po nasazení</h2>
+      <p>Provázím celou transformací, nebo vstoupím tam, kde mě potřebujete nejvíc.</p>
+    </div>
+    <div class="offers">
+      <a class="offer main" href="/provazeni/" style="text-decoration:none">
+        <span class="tag">Hlavní nabídka</span>
+        <h3>Provázení celou transformací</h3>
+        <p class="meta" style="color:var(--accent-soft);flex:0;margin-bottom:12px">konzultace pro vedení firmy</p>
+        <p>Tým nevedu já, směruji vaše vedení, aby svůj tým transformací provedlo co nejlépe. Jsem s vámi ve 4 fázích: před zavedením, těsně před nasazením, při nasazení a v týdnech po něm.</p>
+        <span class="more">Jak provázení probíhá →</span>
+      </a>
+      <a class="offer" href="/workshop/" style="text-decoration:none">
+        <span class="tag">Pro tým</span>
+        <h3>Workshop: Lidská stránka zavádění AI</h3>
+        <p>Půl dne s vaším týmem o tom, co nástroje nevyřeší. Obavy, o kterých se dá normálně mluvit, a důvěra, se kterou AI nestojí na pár nadšencích.</p>
+        <span class="more">Více o workshopu →</span>
+      </a>
+      <a class="offer" href="/koucink/" style="text-decoration:none">
+        <span class="tag">Pro vedení</span>
+        <h3>Průvodkyně změnou: koučink</h3>
+        <p>Firma prochází změnou jen tak dobře, jak ji zvládá její vedení. Pomůžu vám se zorientovat, najít pevný bod a udělat další krok.</p>
+        <span class="more">Více o koučinku →</span>
+      </a>
+    </div>
+    <p class="side-note">Procházíte velkou změnou sami za sebe? <a href="/koucink/">Koučink nabízím i jednotlivcům →</a></p>
+  </div>
+</section>
+
+{% if collections.akcePripravovane.length %}
+<section class="band" id="nejblizsi-akce">
+  <div class="wrap invite">
+    <div>
+      <div class="eyebrow">Kde se potkáme</div>
+      <h2 class="nadpis-sekce">Přednášky, meetupy a otevřené workshopy</h2>
+      <p class="side-note"><a href="/akce/">Všechny akce →</a></p>
+    </div>
+    <div>
+      {% for akce in collections.akcePripravovane | head(2) %}
+      <div class="mini-ev"><b class="d">{{ akce.data.datum | denMesic }}</b><div><small>{{ akce.data.typ }} · {{ akce.data.misto }}</small>{{ akce.data.nazev }}</div></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section id="clanky">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Z blogu</div>
+    </div>
+    <div class="posts">
+      {% for c in collections.clanky | head(3) %}
+      <a class="pc" href="{{ c.url }}" style="text-decoration:none">
+        <div class="img {% if loop.index is odd %}g1{% else %}g2{% endif %}"></div>
+        <span class="meta">{{ c.data.datum | datumCs }}</span>
+        <h3>{{ c.data.nazev }}</h3>
+        <p>{{ c.data.perex }}</p>
+        <span class="read">Číst článek →</span>
+      </a>
+      {% endfor %}
+    </div>
+    <p class="side-note"><a href="/blog/">Všechny články →</a></p>
   </div>
 </section>
