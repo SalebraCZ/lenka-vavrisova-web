@@ -3,7 +3,8 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { read, allHtmlFiles } from './helpers.js';
 
-const ZAKAZANO = [/\bKč\b/, /\bDPH\b/, /certifikát ICF/i, /nejstarší tým/i, /Škola intuice/i, /datum narození/i, /\bcovid/i, /kyslík/i];
+// \b nefunguje s českými písmeny, proto u „Kč“ vlastní hranice slova.
+const ZAKAZANO = [/(^|[^\p{L}])Kč($|[^\p{L}])/u,/\bDPH\b/, /certifikát ICF/i, /nejstarší tým/i, /Škola intuice/i, /datum narození/i, /\bcovid/i, /kyslík/i];
 
 test('žádná stránka nenese zakázaný obsah', () => {
   for (const file of allHtmlFiles('_site')) {
