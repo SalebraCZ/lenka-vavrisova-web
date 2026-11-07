@@ -1,5 +1,9 @@
 import { slugCs } from './lib/slug.js';
 import { validateArticle } from './lib/validate-article.js';
+import { splitEvents } from './lib/events.js';
+
+// Den sestavení; v testech pevně přes BUILD_DATE.
+const dnes = () => (process.env.BUILD_DATE ? new Date(`${process.env.BUILD_DATE}T12:00:00Z`) : new Date());
 
 // Datum česky: 7. 11. 2026
 function datumCs(datum) {
@@ -14,6 +18,8 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addFilter('slugCs', slugCs);
   eleventyConfig.addFilter('datumCs', datumCs);
+  eleventyConfig.addFilter('denMesic', d => datumCs(d).split(' ').slice(0, 2).join(' '));
+  eleventyConfig.addFilter('rok', d => new Date(d).getUTCFullYear());
 
   eleventyConfig.addCollection('clanky', api =>
     api.getFilteredByGlob('blog/*.md')
@@ -23,6 +29,9 @@ export default function (eleventyConfig) {
       })
       .sort((a, b) => new Date(b.data.datum) - new Date(a.data.datum))
   );
+
+  eleventyConfig.addCollection('akcePripravovane', api => splitEvents(api.getFilteredByGlob('akce/*.md'), dnes()).upcoming);
+  eleventyConfig.addCollection('akceProbehle', api => splitEvents(api.getFilteredByGlob('akce/*.md'), dnes()).past);
 
   return {
     dir: { input: '.', includes: 'src/_includes', data: 'src/_data', output: '_site' },

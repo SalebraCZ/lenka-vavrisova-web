@@ -1,0 +1,30 @@
+---
+layout: base.njk
+title: Kde se potkáme
+permalink: /akce/
+---
+<section class="pv-hero">
+  <div class="wrap">
+    <div class="eyebrow">Kde se potkáme</div>
+    <h1>Přednášky, meetupy a otevřené workshopy</h1>
+    <p>Než se rozhodnete pro spolupráci, můžete mě slyšet naživo.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2 class="nadpis-sekce">Připravujeme</h2>
+    {% if collections.akcePripravovane.length %}
+      {% for akce in collections.akcePripravovane %}{% set probehlo = false %}{% include "akce-radek.njk" %}{% endfor %}
+    {% else %}
+      <p id="pripravujeme-prazdne" class="side-note">Další akce zrovna připravuji. Chcete mě pozvat k vám? <a href="#kontakt">Napište mi.</a></p>
+    {% endif %}
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="nadpis-sekce">Proběhlo</h2>
+    {% for akce in collections.akceProbehle %}{% set probehlo = true %}{% include "akce-radek.njk" %}{% endfor %}
+  </div>
+</section>

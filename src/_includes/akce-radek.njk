@@ -1,0 +1,9 @@
+<div class="ev{% if probehlo %} past{% endif %}">
+  <div class="date"><b>{{ akce.data.datum | denMesic }}</b><span>{{ akce.data.datum | rok }}</span></div>
+  <div>
+    <span class="kind">{% if probehlo %}Proběhlo · {% endif %}{{ akce.data.typ }} · {{ akce.data.misto }}</span>
+    <h3>{{ akce.data.nazev }}</h3>
+    {% if akce.data.popis %}<p>{{ akce.data.popis }}</p>{% endif %}
+  </div>
+  {% if akce.data.odkaz %}<a class="btn-ghost" href="{{ akce.data.odkaz }}">Více →</a>{% endif %}
+</div>
