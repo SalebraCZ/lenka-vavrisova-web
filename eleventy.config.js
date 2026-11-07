@@ -12,7 +12,7 @@ function datumCs(datum) {
 }
 
 export default function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy({ 'src/assets': 'assets' });
+  eleventyConfig.addPassthroughCopy({ 'src/assets': 'assets', 'src/CNAME': 'CNAME' });
   eleventyConfig.addPassthroughCopy('blog/**/*.{jpg,jpeg,png,webp}');
   for (const ignore of ['test/**', 'README.md', '.superpowers/**', '.claude/**']) eleventyConfig.ignores.add(ignore);
 
