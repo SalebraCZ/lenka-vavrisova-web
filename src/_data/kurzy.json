@@ -1,0 +1,17 @@
+{
+  "prace": [
+    { "nazev": "Rekvalifikace kouč/koučka, akreditovaná MŠMT, postavená na standardech ICF", "poradatel": "Koučink Centrum" },
+    { "nazev": "Neurokoučink a stres", "poradatel": "Koučink Centrum" },
+    { "nazev": "Trénink ve vedení lidí", "poradatel": "Mansio" },
+    { "nazev": "Úvod do nenásilné komunikace", "poradatel": "Institut nenásilné komunikace" },
+    { "nazev": "AI: od promptu po automatizaci", "poradatel": "Veni Edu Vici" },
+    { "nazev": "Business as Code", "poradatel": "Uměláinteligence.cz" }
+  ],
+  "sport": [
+    { "nazev": "Sportovní psychologie", "poradatel": "Marian Jelínek" },
+    { "nazev": "Kurz výživového poradce", "poradatel": "Improve Academy" },
+    { "nazev": "Trenér EMS cvičení", "poradatel": "InBody" },
+    { "nazev": "Vědecký základ sportovního tréninku", "poradatel": "Masarykova univerzita" },
+    { "nazev": "Trenérská licence C", "poradatel": "ČAAF" }
+  ]
+}

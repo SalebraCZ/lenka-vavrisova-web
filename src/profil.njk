@@ -1,0 +1,106 @@
+---
+layout: base.njk
+title: Profil
+permalink: /profil/
+---
+<section class="p-hero">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Profil</div>
+      <h1>Lenka Vavrisová</h1>
+      <p class="sub">Rozvíjím potenciál lidí a pomáhám jim měnit způsob, jakým fungují firmy i sami v sobě.</p>
+      <p>Od roku 2013 se pohybuji mezi IT a prací s lidmi. Pomáhám firmám zavádět AI tak, aby se lidé v té změně cítili bezpečně a věřili sobě.</p>
+      <a class="btn" href="{{ site.mailto }}">{{ site.rezervace }}</a>
+    </div>
+    <div class="photo" role="img" aria-label="Místo pro fotografii"></div>
+  </div>
+</section>
+
+<section style="padding:0">
+  <div class="wrap">
+    <div class="facts">
+      {% for f in fakta %}<div class="fact"><b>{{ f.titulek }}</b><span>{{ f.popis }}</span></div>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="o-mne" class="about">
+  <div class="wrap">
+    <div class="split">
+      <div>
+        <div class="eyebrow">O mně</div>
+        <h2>Rozumím procesům i lidem</h2>
+      </div>
+      <div>
+        <p class="big">Lenka Vavrisová je člověk, který přirozeně propojuje lidi, systémy a změnu. Její největší síla spočívá ve schopnosti vidět v lidech potenciál, který si sami často neuvědomují, a pomáhat jim ho rozvíjet. Věří, že skutečná změna nezačíná novými procesy ani technologiemi, ale u člověka – v jeho myšlení, postoji k sobě samému a ochotě převzít odpovědnost za vlastní rozhodnutí.</p>
+        <div class="rest">
+          <p>Její profesní cesta vede od IT a managementu přes provozní řízení firem až k rozvoji lidí, leadershipu a organizační transformaci. Zkušenosti získávala také ve sportovním prostředí, kde více než deset let buduje a vede ženský tým amerického fotbalu Brno Amazons. Působila jako hráčka a trenérka, byla součástí české reprezentace a několik let se podílela na řízení českého amerického fotbalu jako členka Rady České asociace amerického fotbalu.</p>
+          <p>Právě sport jí poskytl cennou zkušenost s tím, jak fungují lidé pod tlakem, co ovlivňuje jejich výkon a jak zásadní roli hraje důvěra, komunikace a společný cíl. Vedení týmu pro ni není jen o organizaci práce a dosahování výsledků. Je především o vytváření prostředí, ve kterém mohou lidé rozvíjet své schopnosti, nacházet vlastní motivaci a postupně přebírat odpovědnost za sebe i za celek.</p>
+          <p>Zkušenosti z vedení organizací a firem jí zároveň umožňují vnímat člověka v širších souvislostech. Rozumí tomu, že ani schopní a motivovaní lidé nemohou dlouhodobě fungovat naplno v prostředí, které jim nedává jasný směr, prostor pro samostatnost nebo důvěru. Stejně tak ví, že dobře nastavené procesy samy o sobě nezaručí fungující firmu, pokud lidé nerozumějí svému smyslu, své roli a odpovědnosti.</p>
+          <p>Dnes se chce soustředit především na provázení majitelů malých a středních firem jejich osobní i organizační transformací. Pomáhá jim hledat vlastní způsob leadershipu, lépe porozumět sobě i svým týmům a postupně budovat firmu, která není závislá pouze na rozhodování svého majitele. Firmu, ve které lidé dokážou samostatně přemýšlet, spolupracovat, rozhodovat se a přebírat odpovědnost.</p>
+          <p>Důležitou součástí jejího přístupu je přesvědčení, že úkolem lídra není mít všechny odpovědi ani rozhodovat o všem. Jeho rolí je vytvářet podmínky, ve kterých mohou lidé nacházet vlastní řešení, využívat svůj potenciál a společně vytvářet výsledky, kterých by jednotlivě nedosáhli. Proto ji zajímá také kolektivní inteligence, leadership zdola a možnosti, které přináší umělá inteligence při proměně způsobu fungování firem. Technologie pro ni nejsou cílem samy o sobě, ale příležitostí změnit způsob, jakým lidé pracují, přemýšlejí a spolupracují.</p>
+          <p>Vedle manažerské a rozvojové práce se věnuje také autorské tvorbě. Je autorkou knihy <em>Sylvanor</em> a tvůrkyní světa Beastoria. I tato oblast odráží její zájem o lidské prožívání, vnitřní svět a hledání vlastní cesty.</p>
+          <p>Lenka propojuje analytické myšlení, systémový pohled a zkušenosti z řízení s přirozeným zájmem o lidi a jejich vnitřní svět. Nejde jí pouze o to, aby firmy fungovaly efektivněji. Chce pomáhat vytvářet prostředí, ve kterém mohou růst lidé, jejich týmy i celé organizace.</p>
+        </div>
+        <blockquote class="citat"><strong>Jejím cílem je pomáhat lidem objevovat vlastní potenciál, získávat důvěru ve své schopnosti a přebírat odpovědnost za to, co vytvářejí. Protože když se mění lidé, může se skutečně změnit i způsob, jakým fungují firmy.</strong></blockquote>
+        <div class="courses">
+          <h3>Kurzy a výcviky</h3>
+          <ul>{% for k in kurzy.prace %}<li>{{ k.nazev }}<span>{{ k.poradatel }}</span></li>{% endfor %}</ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="zkusenosti" class="band">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Pracovní zkušenosti</div>
+      <h2>Od dat a procesů k lidem</h2>
+    </div>
+    <ul class="jobs">
+      {% for z in zkusenosti %}
+      <li class="job">
+        <div class="when{% if not z.konec %} now{% endif %}">{{ z.obdobi }}</div>
+        <div>
+          <h3>{{ z.role }}</h3>
+          <div class="org">{{ z.organizace }}</div>
+          <p>{{ z.veta }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section id="mimo-praci">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Mimo práci</div>
+      <h2>Sportovkyně tělem i duší a autorka</h2>
+    </div>
+    <div class="two">
+      <div class="card">
+        <div class="eyebrow">Americký fotbal</div>
+        <h3>Brno Amazons</h3>
+        <p>Ženský tým amerického fotbalu, který jsem v roce 2013 zakládala. Byla jsem hráčka a trenérka, dnes jsem majitelka klubu.</p>
+        <div class="stat">
+          <div><b>2013</b><span>založení týmu</span></div>
+          <div><b>6</b><span>ligových titulů</span></div>
+        </div>
+        <ul class="courses-plain">{% for k in kurzy.sport %}<li>{{ k.nazev }} <span>· {{ k.poradatel }}</span></li>{% endfor %}</ul>
+        <p class="note">V médiích:</p>
+        <ul class="press">
+          <li><a href="https://cosedeje.brno.cz/w/lenka-vavrisova-bavi-me-komunita-i-narazeni-do-lidi">Baví mě komunita i narážení do lidí!</a> · Co se děje</li>
+          <li><a href="https://www.idnes.cz/sport/ostatni/americky-fotbal-zen-brno-amazons-prague-black-cats.A171113_364198_sporty_ald">Adrenalin jako droga. Brněnské Amazonky bolest neřeší</a> · iDNES</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="eyebrow">Autorská tvorba</div>
+        <h3>Sylvanor a svět Beastorie</h3>
+        <p>Dětská fantasy kniha od 6 let, jako e-kniha česky i anglicky. Napsala jsem knihu i celý svět Beastorie, ve kterém se odehrává.</p>
+        <p style="margin-top:18px"><a href="https://www.sylvanor.cz" class="more" style="color:var(--accent)">sylvanor.cz →</a></p>
+      </div>
+    </div>
+  </div>
+</section>
