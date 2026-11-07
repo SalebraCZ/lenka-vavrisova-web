@@ -1,0 +1,87 @@
+---
+layout: base.njk
+title: Provázení celou transformací
+permalink: /provazeni/
+---
+{% set faze = [
+  { n: "01", nazev: "Před zavedením", kdy: "dřív, než padne rozhodnutí o nástroji", body: ["Nastavíme řízení změny a plán toho, co se musí stát před zavedením.", "Určíme, kdo musí být součástí komunikace.", "Připravíme, jak a čím změnu lidem sdělit."] },
+  { n: "02", nazev: "Těsně před nasazením", kdy: "poslední týdny před spuštěním", body: ["Projdeme, co musí být hotové, než nástroj přijde.", "Připravíme lidi na první dny, aby věděli, co je čeká."] },
+  { n: "03", nazev: "Nasazení a hned po něm", kdy: "první dny", body: ["Hlídáme, co se má dít těsně po nasazení.", "Nastavíme, jak má systém fungovat, aby se lidé nevraceli ke starému."] },
+  { n: "04", nazev: "Týdny po zavedení", kdy: "kdy se ukáže, jestli změna drží", body: ["Dáme lidem podporu, kterou v té době potřebují.", "Snižujeme nejistotu v týmu.", "Pracujeme se stresem a přetížením."] }
+] %}
+<section class="pv-hero">
+  <div class="wrap">
+    <div class="eyebrow">Provázení celou transformací · konzultace pro vedení firmy</div>
+    <h1>Jsem s vámi od přípravy až po týdny po nasazení</h1>
+    <p>Tým transformací nevedu já. Vede ho vaše vedení. Já stojím vedle vás: pomáhám vám změnu naplánovat, komunikovat a ustát tak, abyste svůj tým provedli co nejlépe.</p>
+    <p style="margin-top:18px">Většina transformací se plánuje kolem nástroje. Já pracuji s tím, na čem změna stojí a padá: s lidmi. Ve 4 fázích, na které se při zavádění AI nejčastěji zapomíná.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="two">
+      <div class="card karta-duvera">
+        <div class="eyebrow">Zkušenost zevnitř</div>
+        <h3>Pracuji v AI-native firmě od jejího začátku</h3>
+        <p>V Uměláinteligence.cz žijeme práci s AI každý den. Vím, jak firma funguje, když je AI součástí všeho, co dělá, a co to znamená pro lidi v ní.</p>
+      </div>
+      <div class="card karta-duvera">
+        <div class="eyebrow">Zkušenost z praxe</div>
+        <h3>Jsem součástí transformací našich zákazníků</h3>
+        <p>Vidím zblízka, co při zavádění AI v jiných firmách funguje a kde to drhne. Tuhle zkušenost přináším vám.</p>
+      </div>
+    </div>
+    <div class="about prose" style="margin-top:56px">
+      <p class="big">V roce 2013 jsem založila sportovní tým od nuly. Od té doby jsem zažila desítky změn hráček, trenérů i pravidel. A naučila se jedno: tým funguje nebo nefunguje podle toho, jestli lidé věří. Ne pravidlům. Ne plánu. Sobě a tomu, co dělají.</p>
+      <p>Tohle mě provází pořád, i mimo sport.</p>
+      <p>Od roku 2013 se pohybuji mezi IT a sportem. Z produktové práce jsem si odnesla schopnost vidět systém, strukturu a kontext. Ze sportu pochopení toho, co opravdu hýbe lidmi, a odolnost v situacích, kdy věci nejdou podle plánu.</p>
+      <p>Psychologie mě zajímá od začátku, ne jako teorie, ale jako způsob přemýšlení o motivaci, strachu, důvěře a odolnosti. O tom, jak může člověk pracovat sám se sebou v momentech změny, růstu nebo krize.</p>
+      <p>Právě tahle kombinace mě přivedla ke change managementu a AI adopci. Vím, že změna nestojí a nepadá s nástrojem nebo plánem. Stojí a padá s tím, jestli se lidé v té změně cítí bezpečně, věří sobě a svým schopnostem, dokážou využít svůj potenciál a jestli mají vedle sebe někoho, kdo rozumí oběma stranám: procesům i lidem.</p>
+      <p>Pracuju s majiteli a manažery menších firem. Provázím je jako jednotlivce a zároveň pomáhám jejich týmům se zaváděním AI. V obou případech jde o totéž: změna funguje, když lidé věří sobě, rozumí tomu, co se děje, a mají v klíčových momentech správnou podporu.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">4 fáze</div>
+      <h2>Od přípravy po týdny po nasazení</h2>
+    </div>
+    <div class="timeline casova-osa">
+      {% for f in faze %}
+      <div class="step">
+        <span class="dot"></span>
+        <div class="n">{{ f.n }}</div>
+        <h3>{{ f.nazev }}</h3>
+        <p class="meta">{{ f.kdy }}</p>
+        <ul>{% for b in f.body %}<li>{{ b }}</li>{% endfor %}</ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Součást provázení, i samostatně</div>
+      <h2>Workshop a koučink</h2>
+    </div>
+    <div class="tools">
+      <a class="offer" href="/workshop/" style="text-decoration:none">
+        <span class="tag">Pro tým</span>
+        <h3>Workshop: Lidská stránka zavádění AI</h3>
+        <p>Půl dne, 4 hodiny, osobně ve firmě nebo online, do 30 lidí.</p>
+        <span class="more">Více o workshopu →</span>
+      </a>
+      <a class="offer" href="/koucink/" style="text-decoration:none">
+        <span class="tag">Pro vedení</span>
+        <h3>Průvodkyně změnou: koučink</h3>
+        <p>Jedno sezení, nebo koučovací cyklus 6 sezení jednou za 3 týdny.</p>
+        <span class="more">Více o koučinku →</span>
+      </a>
+    </div>
+  </div>
+</section>
