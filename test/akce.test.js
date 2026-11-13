@@ -22,3 +22,11 @@ test('prázdné Připravujeme ukáže větu, jinak akce a pruh na úvodu', () =>
     assert.ok(uvod.includes('id="nejblizsi-akce"'));
   }
 });
+
+test('proběhlé akce s nahrávkou mají odkaz na záznam', () => {
+  const h = read('_site/akce/index.html');
+  assert.ok(h.includes('href="https://www.youtube.com/watch?v=yIjSJntKrMI&amp;t=745s"'));
+  assert.ok(h.includes('href="https://www.youtube.com/watch?v=_1gMs2TMBqQ&amp;t=2820s"'));
+  assert.ok(h.includes('href="https://www.youtube.com/watch?v=bdNf8J8Q_88"'));
+  assert.ok(h.includes('Záznam na YouTube'));
+});

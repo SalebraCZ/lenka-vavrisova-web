@@ -5,5 +5,6 @@
     <h3>{{ akce.data.nazev }}</h3>
     {% if akce.data.popis %}<p>{{ akce.data.popis }}</p>{% endif %}
   </div>
+  {% if akce.data.zaznam %}<a class="btn-ghost" href="{{ akce.data.zaznam }}">Záznam na YouTube →</a>{% endif %}
   {% if akce.data.odkaz %}<a class="btn-ghost" href="{{ akce.data.odkaz }}">Více →</a>{% endif %}
 </div>

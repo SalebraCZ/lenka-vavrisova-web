@@ -20,7 +20,7 @@ Později jsem onemocněla neuroboreliózou. Ochrnula mi polovina obličeje, dlou
 
 Ani jedna z těchto zkušeností ale neurčila, co v životě budu nebo nebudu schopná dělat.
 
-Věnovala jsem se americkému fotbalu a postupně se vypracovala na pozici quarterbacka. Přestože jsem měla omezenou citlivost a hybnost ruky, dokázala jsem se dvakrát stát nejlepší quarterbackkou ženské ligy v České republice.
+Věnovala jsem se americkému fotbalu. Před lety jsem zakládala ženský tým, v době, kdy americký fotbal rozhodně nebyl považovaný za sport, který by měly hrát ženy. Postupně jsem se vypracovala na pozici quarterbacka. Přestože jsem měla omezenou citlivost a hybnost ruky, dokázala jsem se dvakrát stát nejlepší quarterbackkou ženské ligy v České republice.
 
 Naučilo mě to jednu důležitou věc: naše omezení nemusí automaticky určovat hranice našeho potenciálu. Někdy jen potřebujeme najít jiný způsob, jak dosáhnout svého cíle.
 
@@ -32,6 +32,8 @@ Půl roku mě trápily opakované záněty ramen. Nakonec se ukázalo, že probl
 
 Musela jsem změnit přístup k tréninku, pochopit souvislosti a začít pracovat s tělem jinak.
 
+## Návrat po covidu
+
 Pak přišel covid. A ne jen jednou.
 
 Po první infekci jsem na rok a půl ztratila čich. Při druhé mě odvezla do nemocnice záchranná služba. Třetí průběh byl ale výrazně vážnější. Skončila jsem v nemocnici se saturací kyslíku kolem 70 procent. Během šesti dnů jsem zhubla osm kilogramů a návrat do běžného fungování mi trval přibližně rok.
@@ -42,9 +44,9 @@ Musela jsem se naučit poslouchat vlastní tělo, respektovat jeho možnosti a p
 
 Po roce jsem se vrátila na fotbalové hřiště. Ale nevracela jsem se jen jako hráčka.
 
-Současně jsem zastávala roli manažerky týmu, vedla přibližně třicetičlenný kolektiv hráček a spolupracovala s trenérským týmem. Vedle toho jsem měla také stabilní zaměstnání.
+Současně jsem zastávala roli manažerky týmu, vedla přibližně třicetičlenný kolektiv hráček a spolupracovala s trenérským týmem. Vedle toho jsem měla stabilní zaměstnání.
 
-Čekalo mě tedy nejen znovu vybudovat vlastní fyzickou kondici a sportovní výkon, ale zároveň zvládat odpovědnost za ostatní, organizaci týmu, práci a běžný život.
+Čekalo mě tedy znovu vybudovat vlastní fyzickou kondici a sportovní výkon. Zároveň jsem musela zvládat odpovědnost za ostatní, organizaci týmu, práci a běžný život.
 
 S týmem jsme se znovu dostali do finále a vyhráli ho. Já jsem se navíc stala nejlepší hráčkou roku v České republice.
 
@@ -52,9 +54,9 @@ Zpětně si uvědomuji, že to nebyla jen zkušenost o fyzickém návratu po vá
 
 Právě tehdy jsem si ještě více uvědomila, jak důležité je rozumět nejen vlastnímu výkonu, ale také tomu, co všechno ho ovlivňuje.
 
-Dlouhodobě se proto věnuji také studiu výživy, anatomie a fyzické přípravy. Absolvovala jsem kurz výživového poradenství a vedle fyzické přípravy se zajímám také o mentální přípravu, psychologii a fungování lidské mysli. Zajímá mě, jak spolu souvisí tělo, psychika, naše návyky, způsob přemýšlení a schopnost podávat dlouhodobě udržitelný výkon.
+Dlouhodobě se proto věnuji studiu výživy, anatomie a fyzické přípravy. Absolvovala jsem kurz výživového poradenství a vedle fyzické přípravy se zajímám o mentální přípravu, psychologii a fungování lidské mysli. Zajímá mě, jak spolu souvisí tělo, psychika, naše návyky, způsob přemýšlení a schopnost podávat dlouhodobě udržitelný výkon.
 
-Postupně jsem pochopila, že člověk není stroj, jehož výkon lze jednoduše zvyšovat tlakem. Stejně důležitá jako schopnost zabrat je totiž schopnost poznat, kdy zpomalit, porozumět tomu, co se v nás odehrává, a dopřát si prostor na regeneraci.
+Pochopila jsem, že člověk není stroj, jehož výkon lze jednoduše zvyšovat tlakem. Stejně důležitá jako schopnost zabrat je totiž schopnost poznat, kdy zpomalit, porozumět tomu, co se v nás odehrává, a dopřát si prostor na regeneraci.
 
 ## Odolnost se buduje i mimo sportovní hřiště
 
@@ -64,19 +66,17 @@ Mám za sebou také vztahy, ve kterých se objevovalo psychické násilí, manip
 
 To všechno ovlivňuje způsob, jakým člověk vnímá sám sebe, své hranice a vztahy s ostatními.
 
-Postupně jsem se učila rozpoznávat, co je a není v pořádku, kde jsou moje hranice a jak důležité je neztratit sama sebe ve snaze vyhovět druhým.
+Učila jsem se rozpoznávat, co je a není v pořádku, kde jsou moje hranice a jak důležité je neztratit sama sebe ve snaze vyhovět druhým.
 
 Dnes vnímám schopnost nastavit si vlastní hranice jako jednu ze základních podmínek dlouhodobě zdravého fungování.
 
 ## Když se musíš naučit začínat úplně znovu
 
-Jedna z nejnáročnějších životních etap přišla v poslední době. Během relativně krátkého období se mi totiž začalo měnit hned několik zásadních oblastí života.
-
-Ještě předtím, než se mi změnil celý osobní i profesní život, jsem prošla velmi náročným obdobím zdravotní nejistoty.
+Jedna z nejnáročnějších životních etap přišla v poslední době. Začala velmi náročným obdobím zdravotní nejistoty.
 
 Půl roku jsem žila s vědomím, že mám v těle útvar, u kterého lékaři nedokázali určit, o co se jedná. Reálně jsem tak šest měsíců žila s představou, že bych mohla mít rakovinu. Nakonec mi oznámili, že se jedná o endometriózu.
 
-Součástí této diagnózy bylo také zjištění, že možnost mít v budoucnu děti není vyloučená, ale je poměrně málo pravděpodobná.
+Součástí této diagnózy bylo zjištění, že možnost mít v budoucnu děti není vyloučená, ale je poměrně málo pravděpodobná.
 
 Je zvláštní, kolik věcí člověk považuje za samozřejmou součást své budoucnosti, dokud se najednou nedozví, že možná vůbec nemusí nastat.
 
@@ -84,7 +84,7 @@ Znovu jsem se tak musela vyrovnávat s nejistotou, ztrátou představ o budoucno
 
 A tím změny zdaleka nekončily.
 
-Během relativně krátkého období jsem následně přišla o práci, skončil můj čtrnáctiletý partnerský vztah a po čtrnácti letech jsem ukončila také svou sportovní kariéru.
+Během krátké doby jsem pak přišla o práci, skončil můj čtrnáctiletý partnerský vztah a po čtrnácti letech jsem ukončila i svou sportovní kariéru.
 
 Najednou zmizela velká část toho, na čem jsem dlouhé roky stavěla svou identitu.
 
@@ -92,13 +92,13 @@ Role, ve kterých jsem se znala. Prostředí, ve kterém jsem se pohybovala. Vzt
 
 Musela jsem si položit otázku, kdo vlastně jsem, když už nejsem všechno to, čím jsem byla doposud. A jak si představit budoucnost, která může vypadat úplně jinak, než jsem si ji ještě nedávno plánovala.
 
-Zároveň jsem si prošla vyhořením. Vlastně jsem se k němu dostala dvakrát, podruhé už velmi blízko hranici, za kterou bych se dostávala jen obtížně.
+Zároveň jsem si prošla vyhořením. Vlastně jsem se k němu dostala dvakrát, podruhé už velmi blízko hranici, odkud bych se vracela jen obtížně.
 
 Půl roku jsem neměla chuť vrátit se do práce. Ale i z tohoto období nakonec vzniklo něco nového. Napsala jsem knihu pro děti.
 
 Znovu jsem si ověřila, že někdy potřebujeme ztratit dosavadní směr, abychom měli prostor objevit jiný.
 
-Dnes znovu skládám svůj život. Ne podle toho, jak vypadal dříve, ani podle toho, jak jsem si představovala, že bude vypadat. Učím se přijímat novou realitu, hledat vlastní směr a postupně budovat novou představu o sobě i své budoucnosti.
+Dnes znovu skládám svůj život. Ne podle toho, jak vypadal dříve, ani podle toho, jak jsem si představovala, že bude vypadat. Učím se přijímat novou realitu, hledat vlastní směr a budovat novou představu o sobě i své budoucnosti.
 
 ## I člověk, který pomáhá ostatním, potřebuje někoho, kdo hlídá jeho
 
@@ -144,4 +144,4 @@ A že skutečná síla nespočívá v tom, že nikdy nespadneme.
 
 **Spočívá hlavně v tom, že se dokážeme znovu postavit, pochopit, co se stalo a najít nový způsob, jak pokračovat.**
 
-A někdy je právě potřeba začít znovu tou největší příležitostí, kterou dostaneme.
+A někdy je nutnost začít znovu tou největší příležitostí, kterou dostaneme.
