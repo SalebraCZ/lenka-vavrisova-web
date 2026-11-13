@@ -2,11 +2,13 @@
 nazev: Když AI přestane zrychlovat práci a začne zrychlovat vás
 datum: 2026-11-07
 perex: Příběh o tom, jak jsem se dostala od AI, která zrychlovala moji práci, k AI, která zrychlila mě. A proč za to nemohla AI.
+obrazek: techmeetup-ostrava.jpg
+obrazek_popis: 'Pozvánka na TechMeetup Ostrava #44 AI F*ckupy, talk Lenky Vavrisové'
 ---
 
 *Před pár měsíci jsem dva dny spala hodinu za noc. Přepálila jsem si nervový systém. Tohle je příběh o tom, jak jsem se dostala od AI, která zrychlovala moji práci, k AI, která zrychlila mě. A o tom, proč za to nemohla AI.*
 
-Tenhle text vznikl z mého talku na TechMeetupu v Ostravě, kde jsme mluvili o AI fuckupech. Tedy o tom, co se do prezentací úspěchů obvykle nevejde.
+Tenhle text vznikl z mého talku na TechMeetupu v Ostravě, kde jsme mluvili o AI fuckupech. Tedy o tom, co se do prezentací úspěchů obvykle nevejde. [Záznam talku najdete na YouTube](https://www.youtube.com/watch?v=_1gMs2TMBqQ&t=2820s), moje vystoupení začíná ve 47. minutě.
 
 ## Jak jsem se k AI dostala
 

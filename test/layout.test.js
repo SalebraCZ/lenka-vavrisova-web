@@ -22,3 +22,9 @@ test('mailto má zakódovaný předmět', () => {
 test('písma se nenačítají z Googlu', () => {
   for (const file of allHtmlFiles('_site')) assert.ok(!read(file).includes('fonts.googleapis.com'), file);
 });
+
+test('kontakt má odkaz na Instagram bez sledovacího parametru', () => {
+  const h = read('_site/index.html');
+  assert.ok(h.includes('href="https://www.instagram.com/salebra1/"'));
+  assert.ok(!h.includes('cplk='));
+});

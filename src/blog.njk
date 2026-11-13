@@ -11,7 +11,7 @@ permalink: /blog/
     <div>
       {% for c in collections.clanky %}
       <a class="bl" href="{{ c.url }}" style="text-decoration:none">
-        <div class="img {% if loop.index is odd %}g1{% else %}g2{% endif %}"></div>
+        {% if c.data.obrazek %}<img class="img" src="{{ c.data.obrazek | obrazekUrl }}" alt="" loading="lazy">{% else %}<div class="img {% if loop.index is odd %}g1{% else %}g2{% endif %}"></div>{% endif %}
         <div>
           <span class="meta">{{ c.data.datum | datumCs }}</span>
           <h3>{{ c.data.nazev }}</h3>
