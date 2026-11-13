@@ -11,8 +11,8 @@ test('workshop má text z podkladů a rozsah', () => {
 
 test('koučink: nejdřív majitelé, pak jednotlivci, Koučovací cyklus', () => {
   const h = read('_site/koucink/index.html');
-  assert.ok(h.indexOf('pro majitele a vedení') > -1);
-  assert.ok(h.indexOf('pro majitele a vedení') < h.indexOf('pro jednotlivce'));
+  assert.ok(h.indexOf('pro zakladatele, majitele a vedení') > -1);
+  assert.ok(h.indexOf('pro zakladatele, majitele a vedení') < h.indexOf('pro jednotlivce'));
   assert.ok(h.includes('Koučovací cyklus'));
   assert.ok(!h.includes('Provázení změnou'));
 });

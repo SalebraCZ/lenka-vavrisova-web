@@ -14,10 +14,10 @@ test('pořadí částí profilu', () => {
   assert.ok(isAscending(positions(h(), ['id="o-mne"', 'id="zkusenosti"', 'id="mimo-praci"', 'id="kontakt"'])));
 });
 
-test('text O mně ve třetí osobě a podtitul', () => {
+test('text O mně v první osobě a podtitul', () => {
   const html = h();
   assert.ok(html.includes('Rozvíjím potenciál lidí a pomáhám jim měnit způsob, jakým fungují firmy i sami v sobě.'));
-  assert.ok(html.includes('Lenka Vavrisová je člověk, který přirozeně propojuje lidi, systémy a změnu.'));
+  assert.ok(html.includes('Přirozeně propojuji lidi, systémy a změnu.'));
   assert.ok(html.includes('Protože když se mění lidé, může se skutečně změnit i způsob, jakým fungují firmy.'));
 });
 
