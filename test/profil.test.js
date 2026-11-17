@@ -6,7 +6,7 @@ const h = () => read('_site/profil/index.html');
 
 test('pruh faktů ve schváleném pořadí', () => {
   const pruh = h().split('class="facts"')[1].split('</div>\n</section>')[0];
-  assert.ok(isAscending(positions(pruh, ['Change Management a AI adoption Lead', 'Koučka', 'Majitelka sportovního klubu', 'Ing.'])));
+  assert.ok(isAscending(positions(pruh, ['Vedení změny a adopce AI', 'Koučka', 'Majitelka sportovního klubu', 'Ing.'])));
   assert.ok(pruh.includes('rekvalifikace akreditovaná MŠMT'));
 });
 
