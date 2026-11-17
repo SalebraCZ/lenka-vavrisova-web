@@ -1,12 +1,12 @@
 ---
 nazev: Transformace firmy začíná u člověka, který ji vede
 datum: 2026-11-17
-perex: Role majitele patří k nejnáročnějším a nejosamělejším, jaké znám. Když firma začne stavět svou práci na umělé inteligenci, mění se i ona. Na tu změnu nemusíte být sami.
+perex: Role majitele nebo majitelky patří k nejnáročnějším a nejosamělejším, jaké znám. Když firma začne stavět svou práci na umělé inteligenci, mění se i ona. Na tu změnu nemusíte být sami.
 ---
 
 Vedete firmu a nejspíš to znáte. Jste obklopeni lidmi, a přesto většina zásadních rozhodnutí zůstává na vás. Nesete odpovědnost za celek, rozhodujete v nejistotě a s dlouhodobými důsledky. A o pochybnostech často nemáte s kým otevřeně mluvit.
 
-Role majitele patří k nejnáročnějším a nejosamělejším, jaké znám.
+Role majitele nebo majitelky patří k nejnáročnějším a nejosamělejším, jaké znám.
 
 ## Umělá inteligence tu osamělost ještě prohlubuje
 
@@ -23,7 +23,7 @@ Právě v této fázi vám chci být partnerem.
 
 ## Co ode mě můžete čekat
 
-Provázím majitele malých a středních firem jejich osobní změnou i změnou celé firmy.
+Provázím majitele a majitelky malých a středních firem jejich osobní změnou i změnou celé firmy.
 
 Nechci vám jen doporučit, co máte změnit, ani předat další sadu procesů a nástrojů. Chci vám pomáhat s tím, co za vás nikdo neudělá:
 
@@ -32,7 +32,7 @@ Nechci vám jen doporučit, co máte změnit, ani předat další sadu procesů 
 - zpochybňovat zažité vzorce,
 - postupně měnit, jak přemýšlíte, jednáte a jak vnímáte sami sebe ve své roli.
 
-Současně vám chci pomoci provést změnou celou firmu. Nestačí, když se změní jen majitel. Potřebujete tým, který rozumí novému směru, dokáže převzít odpovědnost a má prostor rozvíjet svůj potenciál.
+Současně vám chci pomoci provést změnou celou firmu. Nestačí, když se změní jen majitel nebo majitelka. Potřebujete tým, který rozumí novému směru, dokáže převzít odpovědnost a má prostor rozvíjet svůj potenciál.
 
 Věřím, že firma může fungovat jinak. Nemusí být závislá na tom, že o všem neustále rozhodujete vy. Může být prostředím, kde lidé samostatně přemýšlejí, spolupracují, rozhodují se a společně vytvářejí výsledky.
 
@@ -80,7 +80,7 @@ Pravidelně se společně ohlížíme zpět a vyhodnocujeme, co funguje a co pot
 - frustraci zaměstnanců,
 - nastavování procesů.
 
-**Co jsem si odnesla.** Problémy ve firmách často nevznikají izolovaně. Nejasné role ovlivňují komunikaci, špatná komunikace vytváří frustraci a ta se promítá do výkonu celého týmu. Nestačí proto opravovat jednotlivé procesy nebo řešit konkrétní problémy zaměstnanců. Je potřeba pochopit celý systém, jeho vazby a také to, jak do něj vstupuje **sám majitel**.
+**Co jsem si odnesla.** Problémy ve firmách často nevznikají izolovaně. Nejasné role ovlivňují komunikaci, špatná komunikace vytváří frustraci a ta se promítá do výkonu celého týmu. Nestačí proto opravovat jednotlivé procesy nebo řešit konkrétní problémy zaměstnanců. Je potřeba pochopit celý systém, jeho vazby a také to, jak do něj vstupuje **sám majitel nebo sama majitelka**.
 
 ### Rok a půl uvnitř firmy postavené na umělé inteligenci
 
@@ -89,7 +89,7 @@ Pravidelně se společně ohlížíme zpět a vyhodnocujeme, co funguje a co pot
 **Co vidím.**
 
 - **Mění se práce.** AI mění způsob práce, řízení projektů, rozdělování odpovědností i roli jednotlivých lidí. Tradiční manažerské struktury a postupy se proměňují a vznikají nové možnosti, jak práci organizovat.
-- **Mění se role majitele.** Jeho zkušenosti, znalosti a způsob rozhodování už nemohou zůstat jen v jeho hlavě. Musí je předat do společného prostoru, kde s nimi mohou pracovat lidé i AI systémy. To po něm žádá, aby přehodnotil, jak přemýšlí o řízení firmy, o odpovědnosti a o své roli.
+- **Mění se role majitele/majitelky.** Zkušenosti, znalosti a způsob rozhodování už nemohou zůstat jen v jedné hlavě. Je potřeba je předat do společného prostoru, kde s nimi mohou pracovat lidé i AI systémy. To žádá přehodnotit vlastní přemýšlení o řízení firmy, o odpovědnosti a o své roli.
 - **Pro lidi je to náročné.** Mění se prostředí, na které byli zvyklí, jejich dosavadní kompetence i způsob spolupráce. To přirozeně přináší nejistotu, frustraci a někdy i odpor.
 - **Potenciál je obrovský.** AI umožňuje přizpůsobit pracovní prostředí jednotlivcům, jejich schopnostem a způsobu práce. Dá se díky ní odstranit zbytečné překážky, zefektivnit spolupráci a vytvořit nový operační systém celé organizace.
 
